@@ -1,0 +1,105 @@
+
+/* All CSS styles for LAB intro pages */
+
+/* body  */
+
+.mybody {
+  font-family: 		Helvetica, sans-serif;
+  font-style:		normal;
+  font-size:		12pt;
+ color:		    #336666;
+  background-color:	#336666;
+  background-color:	silver;
+  margin-left:		5px;
+  margin-right:		5px;
+  margin-top:		0px;
+  text-align:    justify;
+  height:           100%;
+}
+
+.body{
+	width: 100%;
+	height: 700px;
+}
+	
+
+.page{
+	
+	width: 		1000px;
+  	color:		    #fff;
+	height:		700px;
+	background-image: url('_media/pribehy_bg.jpg_%3b');
+}
+
+.pagesub{
+	
+	width: 		1000px;
+	height:		700px;
+	background-image: url('_media/bg.html');
+}
+
+.napis{
+	font-size:		15pt;
+	text-shadow: 3px 3px 5px #000;
+}
+
+.napis_small{
+	font-size:		12pt;
+	text-shadow: 3px 3px 5px #000;
+}
+.napis_notthatsmall{
+	font-size:		50pt;
+	text-shadow: 3px 3px 5px #000;
+        font-weight: normal;
+}
+
+
+
+
+/* BLOKY NOVE */
+#content 		 { width: 100%; margin:0em auto; border: none; }
+#sidebar 		 { float: left; width: 190px; margin: 0; padding: 0;  }
+#sidebar-content { margin:0; padding-left: 0.5em }
+#main            { margin:0 0 0 190px; padding:0; }
+#main-content    { margin:0; padding: 0.5em 1em; }
+hr.cleaner       { clear:both; height:1px; margin: -1px 0 0 0; padding:0; border:none;  visibility: hidden;}
+div#outer  	     { height: 100%; margin: 0; padding: 0; text-align: center; }
+div#centered     { border: 0;  height: 50%; width: 50%; position: absolute; left: 25%; top: 10%; }
+
+.rotated
+{
+/* Rotate div */
+
+
+transform:rotate(180deg);
+-ms-transform:rotate(180deg); /* Internet Explorer 9*/
+-moz-transform:rotate(180deg); /* Firefox */
+-webkit-transform:rotate(180deg); /* Safari and Chrome */
+-o-transform:rotate(180deg); /* Opera */
+}
+
+/* Text */
+
+.nadpis2   { font-size: 13pt; color: #fedc00;}
+.nadpis3   { font-size: 13pt;}
+
+/* odkazy */
+a 		  { 
+        font-weight: normal; color: #FFF; 
+        text-decoration: none; 
+	text-shadow: 3px 3px 5px #000;
+            font-size:14pt
+}
+a:hover   { font-weight: normal; color: #FFF; 
+	text-shadow: 3px 3px 5px #500;
+
+  }
+a:active  { 
+    font-weight: bold; color: #FFF; 
+     }
+#menu a   { font-size: 15pt; }
+
+
+a.extra_link{
+	text-shadow: 3px 3px 5px #500;
+}
